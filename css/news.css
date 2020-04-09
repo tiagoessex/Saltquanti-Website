@@ -1,0 +1,35 @@
+
+.news-hedding{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../news/images/news_banner.jpg');
+    max-width: 100%;
+    height: auto;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background: linear-gradient(rgba(0,0,0,.10)); 
+}
+.news-hedding h1{
+    color:#fff;
+    padding:70px 0px;
+    font-weight:900;
+    z-index: 1;
+}
+
+
+
+
+
+.news-small p, 
+.news-small li {
+	font-size: 120%;
+}
+
+
+.news p, 
+.news li {
+	font-size: 120%;
+}
+
+.news-big p, 
+.news-big li {
+	font-size: 120%;
+}

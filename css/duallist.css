@@ -1,0 +1,13 @@
+/*
+    dual lists - left and right, where items can be swapped between them
+    as in consultcat.php
+*/
+.dual-list .list-group 
+{
+	margin-top: 8px;
+}
+
+.list-left li, .list-right li 
+{
+	cursor: pointer;
+}

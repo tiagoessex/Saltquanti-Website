@@ -1,0 +1,37 @@
+/*
+	for graphs.php
+*/
+.tab-content>.tab-pane {
+  height: 1px;
+  overflow: hidden;
+  display: block;
+ visibility: hidden;
+}
+.tab-content>.active {
+  height: auto;
+  overflow: auto;
+  visibility: visible;
+}
+
+.nav-pills > li > a
+{
+    background-color: #ebf5fb ;
+    border-style: solid;
+    border-color:  #aed6f1 ;
+    border-width: 1px;
+}
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus 
+{
+    background-color: #d1f2eb ;
+}
+
+
+.categories-tree {
+  overflow: auto;
+  height: 260px;
+}
+
+
+
+

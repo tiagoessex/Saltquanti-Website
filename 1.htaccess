@@ -1,0 +1,11 @@
+# HTID:6201303: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:6201303:
+
+
+ErrorDocument 400 errors/error400.php
+ErrorDocument 401 errors/error401.php
+ErrorDocument 403 errors/error403.php
+ErrorDocument 404 errors/error404.php
+ErrorDocument 500 errors/error500.php
+ErrorDocument 502 errors/error502.php

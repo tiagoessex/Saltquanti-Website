@@ -1,0 +1,11 @@
+
+
+table.dataTable span.highlight {
+  background-color: #F5A9A9;
+  border-radius: 0.28571429rem;
+}
+
+table.dataTable span.column_highlight {
+  background-color: #ffcc99;
+  border-radius: 0.28571429rem;
+}

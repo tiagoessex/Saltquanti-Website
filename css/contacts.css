@@ -1,0 +1,30 @@
+
+/* title underline style */
+.double {
+  background-image: linear-gradient(to bottom, #0080FF 33%, transparent 33%, transparent 66%, #0080FF 66%, #0080FF);
+  background-position: 0 1.03em;
+  background-repeat: repeat-x;
+  background-size: 2px 6px;
+}
+
+/* banner */
+.contacts-hedding{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/contacts/contacts.jpg');
+    height:200px;
+    max-width: 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background: linear-gradient(rgba(0,0,0,.10)); 
+}
+/* page title - inside banner */
+.contacts-hedding h1{
+    color:#fff;
+    padding:70px 0px;
+    font-weight:900;
+    z-index: 1;
+}
+
+.contacts-tabs button {
+    border-top-left-radius: 24px!important;
+    border-top-right-radius: 24px!important;
+}

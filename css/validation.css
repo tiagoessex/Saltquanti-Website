@@ -1,0 +1,16 @@
+/* used in import.php */
+td.valid 
+{
+  background-color: white;
+}
+
+td.invalid 
+{
+  background-color: #F6CED8;
+  font-weight: bold;
+}
+
+td.validbut 
+{
+  background-color: #F5F6CE;/*#F3F781;*/
+}

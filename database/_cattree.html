@@ -1,0 +1,1257 @@
+<!-- 
+    separated list since at least 4 files use it
+
+    used by:
+        newproduct.php
+        editproduct.php
+        editproductparticipant.php
+        import.php
+
+    usage:
+        <div class="cattree">
+        </div>
+
+        ...
+
+
+        $('.cattree').load('database/_cattree.html');
+ -->
+<div id="tree">    
+    <ul>
+        <li>Pão
+            <ul>
+                <li>Fresco
+                    <ul>
+                        <li>Pão de trigo</li>
+                        <li>Pão integral de trigo</li>
+                        <li>Pão de centeio</li>
+                        <li>Pão integral de centeio</li>
+                        <li>Pão de triticale</li>
+                        <li>Pão de mistura</li>
+                        <li>Broa de milho</li>
+                        <li>Pão especial</li>
+                    </ul>
+                </li>
+                <li>Embalado
+                    <ul>
+                        <li>Pão de trigo</li>
+                        <li>Pão integral de trigo</li>
+                        <li>Pão de centeio</li>
+                        <li>Pão integral de centeio</li>
+                        <li>Pão de triticale</li>
+                        <li>Pão de mistura</li>
+                        <li>Broa de milho</li>
+                        <li>Pão especial</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Sopa
+            <ul>
+                <li>Confecionada quente
+                    <ul>
+                        <li>Com carne, peixe ou ovo</li>
+                    </ul>
+                </li>
+                <li>Confecionada refrigerada
+                    <ul>
+                        <li>Com vegetais</li>
+                        <li>Com carne, peixe ou ovo</li>
+                    </ul>
+                </li>
+                <li>Confecionada desidratada
+                    <ul>
+                        <li>Com vegetais</li>
+                        <li>Com carne, peixe ou ovo</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Hortícolas e leguminosas
+            <ul>
+                <li>Hortícolas
+                    <ul>
+                        <li>Frescos</li>
+                        <li>Em conserva</li>
+                        <li>Confecionados
+                            <ul>
+                                <li>Assados</li>
+                                <li>Cozidos</li>
+                                <li>Estufados</li>
+                                <li>Fritos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Leguminosas
+                    <ul>
+                        <li>Em conserva</li>
+                        <li>Confecionados</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Ovos
+            <ul>
+                <li>Cru
+                    <ul>
+                        <li>Em natureza</li>
+                        <li>Pasteurizado</li>
+                        <li>Desidratado</li>
+                    </ul>
+                </li>
+                <li>Confecionados quente
+                    <ul>
+                        <li>Cozido</li>
+                        <li>Escalfado</li>
+                        <li>Estrelado</li>
+                        <li>Outros</li>
+                    </ul>
+                </li>
+                <li>Confecionados refrigerados
+                    <ul>
+                        <li>Cozido</li>
+                        <li>Outros</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Molhos
+            <ul>
+                <li>Maionese</li>
+                <li>Mostarda</li>
+                <li>Ketchup</li>
+                <li>Outros</li>
+            </ul>
+        </li>
+
+        <li> Arroz/Batata/Massa
+            <ul>
+                <li>Arroz
+                    <ul>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Sem adição de outros ingredientes</li>
+                                <li>Com hortícolas e/ou leguminosas</li>
+                                <li>Com carne, peixe ou moluscos</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado
+                            <ul>
+                                <li>Sem adição de outros ingredientes</li>
+                                <li>Com hortícolas e/ou leguminosas</li>
+                                <li>Com carne, peixe ou moluscos</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado congelado
+                            <ul>
+                                <li>Sem adição de outros ingredientes</li>
+                                <li>Com hortícolas e/ou leguminosas</li>
+                                <li>Com carne, peixe ou moluscos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>Batata
+                    <ul>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assada</li>
+                                <li>Cozida</li>
+                                <li>Estufada</li>
+                                <li>Frita</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado
+                            <ul>
+                                <li>Assada</li>
+                                <li>Cozida</li>
+                                <li>Estufada</li>
+                                <li>Frita</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado congelado
+                            <ul>
+                                <li>Assada</li>
+                                <li>Cozida</li>
+                                <li>Estufada</li>
+                                <li>Frita</li>
+                            </ul>
+                        </li>
+                        <li>Batatas fritas de pacote</li>
+                        <li>Puré
+                            <ul>
+                                <li>Confecionado</li>
+                                <li>Desidratado</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>Massa
+                    <ul>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Esparguete</li>
+                                <li>Macarrão</li>
+                                <li>Cotovelos</li>
+                                <li>Outras massas</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado
+                            <ul>
+                                <li>Esparguete</li>
+                                <li>Macarrão</li>
+                                <li>Cotovelos</li>
+                                <li>Outras massas</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado desidratado
+                            <ul>
+                                <li>Noodles</li>
+                                <li>Outras massas</li>
+                            </ul>
+                        </li>
+                        <li>Refrigerado
+                            <ul>
+                                <li>Folhada</li>
+                                <li>Quebrada</li>
+                                <li>Para pizza</li>
+                                <li>Para lasanha/canelones</li>
+                                <li>Outras massas</li>
+                            </ul>
+                        </li>
+                        <li>Congelado
+                            <ul>
+                                <li>Folhada</li>
+                                <li>Quebrada</li>
+                                <li>Para pizza</li>
+                                <li>Para lasanha/canelones</li>
+                                <li>Outras massas</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Charcutaria
+            <ul>
+                <li>Alheira
+                    <ul>
+                        <li>Crua</li>
+                        <li>Confecionada</li>
+                    </ul>
+                </li>
+                <li>Bacon</li>
+                <li>Chouriço
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado
+                            <ul>
+                                <li>Cozido</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Farinheira
+                    <ul>
+                        <li>Crua</li>
+                        <li>Confecionada</li>
+                    </ul>
+                </li>
+                <li>Fiambre</li>
+                <li>Linguiça</li>
+                <li>Morcela
+                    <ul>
+                        <li>Crua</li>
+                        <li>Confecionada</li>
+                    </ul>
+                </li>
+                <li>Mortadela</li>
+                <li>Paio</li>
+                <li>Presunto</li>
+                <li>Salame</li>
+                <li>Salpicão</li>
+                <li>Salsicha
+                    <ul>
+                        <li>Crua</li>
+                        <li>Confecionada
+                            <ul>
+                                <li>Cozida</li>
+                                <li>Estufada</li>
+                                <li>Grelhada</li>
+                                <li>Frita</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Carne
+            <ul>
+                <li>Borrego
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cabrito
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Carneiro
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cavalo
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Porco
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Vaca
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Vitela
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Codorniz
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Coelho
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Frango
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Pato
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Perdiz
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Peru
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Órgãos e vísceras
+                    <ul>
+                        <li>Coração
+                            <ul>
+                                <li>Cru</li>
+                                <li>Confecionado</li>
+                            </ul>
+                        </li>
+                        <li>Fígado
+                            <ul>
+                                <li>Cru</li>
+                                <li>Confecionado</li>
+                            </ul>
+                        </li>
+                        <li>Língua
+                            <ul>
+                                <li>Cru</li>
+                                <li>Confecionado</li>
+                            </ul>
+                        </li>
+                        <li>Rim
+                            <ul>
+                                <li>Cru</li>
+                                <li>Confecionado</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Salgados de carne
+                    <ul>
+                        <li>Chamuça</li>
+                        <li>Croquete</li>
+                        <li>Empada</li>
+                        <li>Pastel Folhado</li>
+                        <li>Rissol</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Peixe
+            <ul>
+                <li>Abrótea
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Atum
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Bacalhau
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cação
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cantarilho (redfish)
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Carapau
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cavala
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Cherne
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Chicharro
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Corvina
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Dourada
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Enguia
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Espadarte
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Garoupa
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Goraz
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Imperador
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Linguado
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Maruca
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Pargo legítimo
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Pargo mulato
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Peixe-espada
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Pescada
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Robalo
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Safio
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Salmão
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Sarda
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Sardinha
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Solha
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Tamboril
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Truta
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Salgados de peixe
+                    <ul>
+                        <li>Pastel de bacalhau</li>
+                        <li>Rissol</li>
+                        <li>Caprichos</li>
+                        <li>Patés e pastas de peixe</li>
+                        <li>Surimi</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+
+        <li>Moluscos e Marisco
+            <ul>
+                <li>Ameijoa
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Berbigão
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Choco
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Lula
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Mexilhão
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Ostra
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Polvo
+                    <ul>
+                        <li>Cru</li>
+                        <li>Confecionado quente
+                            <ul>
+                                <li>Assado</li>
+                                <li>Cozido</li>
+                                <li>Estufado/Caldeirada</li>
+                                <li>Frito</li>
+                                <li>Grelhado</li>
+                            </ul>
+                        </li>
+                        <li>Confecionado refrigerado</li>
+                        <li>Confecionado congelado</li>
+                        <li>Conserva</li>
+                    </ul>
+                </li>
+                <li>Camarão
+                    <li>Lagosta
+                        <li>Lagostim
+            </ul>
+            </li>
+
+            <li>Refeição Completa
+                <ul>
+                    <li>Confecionado quente</li>
+                    <li>Confecionado refrigerado</li>
+                    <li>Confecionado congelado</li>
+                    <li>Conserva</li>
+                </ul>
+            </li>
+
+            <li>Vegetariano
+                <ul>
+                    <li>Confecionado quente</li>
+                    <li>Confecionado refrigerado</li>
+                    <li>Confecionado congelado</li>
+                    <li>Conserva</li>
+                </ul>
+            </li>
+    </ul>
+    </li>
+
+</div>
+
+
+
+<script>
+
+    $(document).ready(function() {
+
+        // get the path to the selected node
+        var path = [];
+        $(function() {
+            $('#tree').jstree();
+
+            $('#tree').on("changed.jstree", function (e, data) {
+                path = data.instance.get_path(data.selected[0]);
+                for (var i = 0; i < path.length; i++) {
+                    path[i] = path[i].trim();
+                    path[i] = $.trim( path[i].replace(/[\t\n]+/g,' '));          
+                } 
+                // this function must be implemented in whathever file loads this file
+                setPath(path);
+            });
+        });
+    });
+     
+</script>

@@ -1,0 +1,32 @@
+
+/* banner */
+.materials-hedding{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../materials/images/banner.jpg');
+    height:200px;
+    max-width: 100%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background: linear-gradient(rgba(0,0,0,.10)); 
+}
+/* page title - inside banner */
+.materials-hedding h1{
+    color:#fff;
+    padding:70px 0px;
+    font-weight:900;
+    z-index: 1;
+}
+
+.parent {
+    display: flex;
+}
+
+.child {
+    align-items: stretch;
+    flex: 1;
+    background: #fff;
+    margin: 10px;
+    padding-top: 10px;
+ /*   border-color: black;
+  border-style: solid;
+  border-bottom: medium solid blue;*/
+}

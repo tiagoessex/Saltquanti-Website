@@ -1,0 +1,13 @@
+
+
+.gp_button {
+    border-radius: 0;
+    background-color: #63c8ed;
+    color:white;
+    border-color: #819FF7;
+}
+
+.gp_button:hover {
+    color: white;
+    background-color: #81DAF5;
+}
